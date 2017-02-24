@@ -1,0 +1,104 @@
+
+
+header {
+ 
+    margin-left : auto;
+    margin-right : auto;
+
+ }
+ #nom {
+ text-align: center;
+font-size: 200%;
+
+ }
+ #moi {
+text-align: center;
+
+
+ }
+ .image {
+   -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px
+
+ }
+
+footer {
+margin-left: auto;
+margin-right: auto;
+  }
+
+body {
+  font-family: 'Play', sans-serif;
+  background-color: rgb(104,187,285);
+ width: 700px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+#container
+{
+   display: flex;
+   margin-top:20px;
+   padding-bottom:25px;  
+   padding-top:5px;
+
+}
+
+#leftbox
+{
+  width: 30%;
+     margin-left: auto;
+    margin-right: auto;
+  
+   background-color:#374663;
+   float:left;
+   border: 1px solid #505F7D;
+     -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px
+}
+
+#rightbox
+{
+  width: 70%;
+     margin-left: 10px;
+    margin-right: auto;
+   float:right;
+   background-color:black;
+  
+     border: 1px solid #505F7D;
+       -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px
+}
+#experiences-box
+{background: white;}
+
+#studies-box
+{margin-top:5px;
+ background: white;
+}
+
+#Follow {
+float:left;
+
+}
+
+#stay {
+float:right;
+
+}
+#pied
+{
+align-items: center
+
+}
+@media screen and (max-width: 720px) {
+   body {
+      width: 500px;
+    margin-left : auto;
+    margin-right : auto;
+}
+}
